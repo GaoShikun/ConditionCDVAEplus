@@ -1,0 +1,4 @@
+_target_: ccdvaeplus.pl_modules.CWGAN.Discriminator
+dim: [256, 128, 50]
+condition_prop: ${model.condition_prop}
+condition_formula: ${model.condition_formula}
