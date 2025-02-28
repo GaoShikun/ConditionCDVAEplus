@@ -33,6 +33,7 @@ COV_Cutoffs = {
     'mp20': {'struc': 0.4, 'comp': 10.},
     'carbon': {'struc': 0.2, 'comp': 4.},
     'perovskite': {'struc': 0.2, 'comp': 4},
+    'j2dh-8':{'struc': 0.4, 'comp': 10.},
 }
 
 
