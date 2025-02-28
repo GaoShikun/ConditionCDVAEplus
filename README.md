@@ -3,12 +3,6 @@
 Our study presents an improved deep generative model based on the Crystal Diffusion Variational  Autoencoder ([CDVAE](https://github.com/txie-93/cdvae)), ConditionCDVAE+, which enables the inverse design of van der Waals (vdW) heterostructures.
 This is an implemented code from a paper titled "Deep generative model for the inverse design of van der Waals  heterostructures".
 ## Installation
-Run the following command to install the environment:
-```
-conda env create -f environment.yml
-```
-
-Modify the following environment variables in `.env`.
 
 - `PROJECT_ROOT`: path to the folder that contains this repo
 - `HYDRA_JOBS`: path to a folder to store hydra outputs
