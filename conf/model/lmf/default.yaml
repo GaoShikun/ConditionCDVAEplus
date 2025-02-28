@@ -1,0 +1,7 @@
+_target_: ccdvaeplus.pl_modules.condition_block.LMFConditionEmbedding
+input_dims: [256, 50, 128]
+dropouts: [0, 0, 0, 0.0003]
+output_dim: 256
+rank: 4
+condition_prop: ${model.condition_prop}
+condition_formula: ${model.condition_formula}

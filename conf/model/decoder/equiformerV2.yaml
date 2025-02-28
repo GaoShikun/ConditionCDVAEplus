@@ -1,0 +1,3 @@
+_target_: ccdvaeplus.pl_modules.decoder.EquiformerV2Decoder
+radius: 7.0
+max_num_neighbors: 20
