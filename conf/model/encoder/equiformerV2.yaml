@@ -1,6 +1,0 @@
-_target_: ccdvaeplus.pl_modules.gnn.EquiformerV2Encoder
-num_targets: None
-otf_graph: ${data.otf_graph}
-cutoff: 7.0
-max_num_neighbors: 20
-readout: ${data.readout}
