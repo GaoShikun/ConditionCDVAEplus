@@ -44,7 +44,8 @@ class BaseModule(pl.LightningModule):
                       list(self.fc_var.parameters()) + \
                       list(self.fc_num_atoms.parameters()) + \
                       list(self.fc_lattice.parameters()) + \
-                      list(self.fc_composition.parameters())
+                      list(self.fc_composition.parameters()) + \
+                      list(self.con_model.parameters())
         if self.hparams.predict_property:
             base_params += list(self.fc_property.parameters())
 
